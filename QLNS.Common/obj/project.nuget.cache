@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "i2SK9TrQqUt+mqGFTLLcNHtwxwEmWVGBin5Ih+qOHMZ4e6ICH4PL39WkmYKK3w92V74hBMvUK5GyF6nuzlqikA==",
+  "success": true,
+  "projectFilePath": "G:\\QLNS\\QLNS\\QLNS.Common\\QLNS.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BVCN2\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512"
+  ],
+  "logs": []
+}

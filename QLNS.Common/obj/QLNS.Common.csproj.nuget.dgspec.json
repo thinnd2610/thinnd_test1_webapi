@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\QLNS\\QLNS\\QLNS.Common\\QLNS.Common.csproj": {}
+  },
+  "projects": {
+    "G:\\QLNS\\QLNS\\QLNS.Common\\QLNS.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\QLNS\\QLNS\\QLNS.Common\\QLNS.Common.csproj",
+        "projectName": "QLNS.Common",
+        "projectPath": "G:\\QLNS\\QLNS\\QLNS.Common\\QLNS.Common.csproj",
+        "packagesPath": "C:\\Users\\BVCN2\\.nuget\\packages\\",
+        "outputPath": "G:\\QLNS\\QLNS\\QLNS.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BVCN2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "projectReferences": {
+              "G:\\QLNS\\QLNS\\QLNS.Data\\QLNS.Data.csproj": {
+                "projectPath": "G:\\QLNS\\QLNS\\QLNS.Data\\QLNS.Data.csproj"
+              },
+              "G:\\QLNS\\QLNS\\QLNS.Model\\QLNS.Model.csproj": {
+                "projectPath": "G:\\QLNS\\QLNS\\QLNS.Model\\QLNS.Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "G:\\QLNS\\QLNS\\QLNS.Data\\QLNS.Data.csproj": {
+      "restore": {
+        "projectUniqueName": "G:\\QLNS\\QLNS\\QLNS.Data\\QLNS.Data.csproj",
+        "projectName": "QLNS.Data",
+        "projectPath": "G:\\QLNS\\QLNS\\QLNS.Data\\QLNS.Data.csproj",
+        "frameworks": {
+          "net45": {
+            "projectReferences": {
+              "G:\\QLNS\\QLNS\\QLNS.Model\\QLNS.Model.csproj": {
+                "projectPath": "G:\\QLNS\\QLNS\\QLNS.Model\\QLNS.Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net45": {}
+      }
+    },
+    "G:\\QLNS\\QLNS\\QLNS.Model\\QLNS.Model.csproj": {
+      "restore": {
+        "projectUniqueName": "G:\\QLNS\\QLNS\\QLNS.Model\\QLNS.Model.csproj",
+        "projectName": "QLNS.Model",
+        "projectPath": "G:\\QLNS\\QLNS\\QLNS.Model\\QLNS.Model.csproj"
+      },
+      "frameworks": {
+        "net45": {}
+      }
+    }
+  }
+}
